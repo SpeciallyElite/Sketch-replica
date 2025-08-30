@@ -1,6 +1,7 @@
 const container = document.getElementById("mainContainer");
 
 for (let i=0; i<256; i++){
+    resetButton.addEventListener("click", function() {container.innerHTML="";})
     const multiDivs = document.createElement('div');
     multiDivs.style.padding = "0px";
     multiDivs.style.margin = "0px";
